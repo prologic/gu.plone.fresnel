@@ -1,0 +1,14 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="gu.resrepo.site">
+
+    <browser:page
+        for="plone.app.layout.navigation.interfaces.INavigationRoot"
+        name="lens_editor"
+        class=".lenseditor.FresnelLensEditForm"
+        permission="cmf.ManagePortal"
+        layer="*"
+    />
+
+</configure>
