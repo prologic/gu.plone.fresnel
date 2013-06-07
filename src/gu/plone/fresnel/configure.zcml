@@ -3,7 +3,7 @@
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
     xmlns:browser="http://namespaces.zope.org/browser"
     xmlns:grok="http://namespaces.zope.org/grok"
-    >
+    i18n_domain="gu.plone.fresnel">
 
     <include package=".browser" />
 
@@ -11,7 +11,7 @@
         name="default"
         title="Plone Fresnel Tools"
         directory="profiles/default"
-        description="Convencience tools for working with frensel lenseseses"
+        description="Convenience tools for working with fresnel lenseseses"
         provides="Products.GenericSetup.interfaces.EXTENSION"
     />
     
