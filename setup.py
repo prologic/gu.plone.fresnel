@@ -28,6 +28,8 @@ setup(name='gu.plone.fresnel',
           'setuptools',
           'Products.CMFPlone',
           'gu.plone.rdf',
+          'five.grok',
+          'plone.directives.form',
       ],
       extras_require={
           'test': ['plone.app.testing', ]
